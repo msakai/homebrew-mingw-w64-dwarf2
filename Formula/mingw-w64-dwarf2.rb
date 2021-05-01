@@ -10,6 +10,12 @@ class MingwW64Dwarf2 < Formula
     regex(%r{url=.*?release/mingw-w64[._-]v?(\d+(?:\.\d+)+)\.t}i)
   end
 
+  bottle do
+    root_url "https://github.com/msakai/homebrew-mingw-w64-dwarf2/releases/download/mingw-w64-dwarf2-8.0.0"
+    sha256 catalina:     "09dc24ff2c536fcbc0aab4255623fc4692587145811bc08fa66a7fae2f3e0fca"
+    sha256 x86_64_linux: "46fa66beec628d808ff7013598733dc1826c3acf74624bc9a67b715266406f18"
+  end
+
   # Apple's makeinfo is old and has bugs
   depends_on "texinfo" => :build
 

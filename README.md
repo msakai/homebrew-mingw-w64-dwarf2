@@ -1,4 +1,6 @@
-# Msakai Mingw-w64-dwarf2
+# [DEPRECATED] Msakai Mingw-w64-dwarf2
+
+**This tap is deprecated and the contents were moved to [msakai/tap](https://github.com/msakai/homebrew-tap).**
 
 ## How do I install these formulae?
 
